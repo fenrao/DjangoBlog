@@ -198,12 +198,12 @@ EMAIL_USE_SSL = True
 
 EMAIL_HOST = 'smtp.mxhichina.com'
 EMAIL_PORT = 465
-EMAIL_HOST_USER = os.environ.get('DJANGO_EMAIL_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('DJANGO_EMAIL_PASSWORD')
+EMAIL_HOST_USER = 'fenrao'
+EMAIL_HOST_PASSWORD = '123qweasd'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
-SERVER_EMAIL = os.environ.get('DJANGO_EMAIL_USER')
+SERVER_EMAIL = 'fuzengbin@gmail.com'
 # 设置debug=false 未处理异常邮件通知
-ADMINS = [('liangliang', 'liangliangyy@gmail.com')]
+ADMINS = [('fenrao', 'fuzengbin@gmail.com')]
 # 微信管理员密码(两次md5获得)
 WXADMIN = '995F03AC401D6CABABAEF756FC4D43C7'
 
